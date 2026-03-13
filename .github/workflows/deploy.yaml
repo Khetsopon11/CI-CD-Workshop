@@ -1,9 +1,11 @@
 name: Deploy ON Push
 
-permission :s:
+permission :
   contents: read
   pages: write
   id-token: write
+
+
 on:
   push:
     branches:
