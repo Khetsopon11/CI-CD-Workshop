@@ -10,6 +10,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      #Install NodeJS
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      
+      #Install DepenDencies
+      - name: Install dependencies
+        run: npm install
+      #Run Build
+      - name: Build
+        run: npm run build
+        
       - name: HealthCheck
         run: echo "Health Check Passed"
       
