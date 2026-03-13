@@ -5,7 +5,6 @@ permission :
   pages: write
   id-token: write
 
-
 on:
   push:
     branches:

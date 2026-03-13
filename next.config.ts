@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-   basePath: "/cicd",
+   basePath: "/CI-CD-Workshop",
 };
 
 export default nextConfig;
