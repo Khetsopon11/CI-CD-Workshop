@@ -1,6 +1,6 @@
 name: Deploy ON Push
 
-permission :
+permissions:
   contents: read
   pages: write
   id-token: write
